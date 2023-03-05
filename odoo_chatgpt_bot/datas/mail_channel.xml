@@ -17,7 +17,7 @@
             <field name="body">欢迎使用ChatGPT.</field>
         </record>
 
-        <record model="mail.channel.partner" id="chatgpt_channel_partner_model">
+        <record model="mail.channel.member" id="chatgpt_channel_member_model">
             <field name="partner_id" ref="base.partner_admin"/>
             <field name="channel_id" ref="odoo_chatgpt_bot.chatgpt_mail_channel"/>
             <field name="fetched_message_id" ref="odoo_chatgpt_bot.chatgpt_message_module"/>
